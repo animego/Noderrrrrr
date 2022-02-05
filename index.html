@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
     <title>Noder Nidrei Nedarim. ze snake!</title>
-    <link rel=stylesheet id="style" type="text/css" href="./css/main-snake.css" />
+    <link rel=stylesheet id="style" type="text/css" href="./css/dark-snake.css" />
     <link rel="shortcut icon" href="css/images/favicon.png" />
     <style>
       .snake-toolbar {
@@ -35,10 +35,10 @@ function getTheme () {
           changeTheme('css/light-snake.css?' + Math.random());
           break;
         case 1: 
-          changeTheme('css/main-snake.css?' + Math.random());
+          changeTheme('css/dark-snake.css?' + Math.random());
           break;
         case 2: 
-          changeTheme('css/dark-snake.css?' + Math.random());
+          changeTheme('css/ragil-snake.css?' + Math.random());
           break;
         case 3: 
           changeTheme('css/green-snake.css?' + Math.random());
@@ -77,8 +77,8 @@ if (navigator.onLine && window.location.hostname === 'patorjk.com') {
         <span>Theme:</span>
         <select onchange="getTheme()" id="select">
             <option>Light Theme</option>
-            <option selected>Main Theme</option>
-            <option>Dark Theme</option>
+            <option selected>Dark Theme</option>
+            <option>Theme Shel Sahim</option>
             <option>Green Theme</option>
             <option>Matrix Theme</option>
             <option>Senura Them </option>
