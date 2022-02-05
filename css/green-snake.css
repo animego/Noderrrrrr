@@ -30,7 +30,7 @@ a.snake-link, a.snake-link:link, a.snake-link:visited {
 }
 
 a.snake-link:hover {
-  color: #FfFf54;
+  color: #1b8135;
 }
 
 .snake-pause-screen {
@@ -63,14 +63,14 @@ a.snake-link:hover {
 .snake-snakebody-block {
     margin: 0px;
     padding: 0px;
-    background-color: #FF0000;
+    background-color: #1b8135;
     position: absolute;
     border: 0px solid #000080;
     background-repeat: no-repeat;
 }
 
 .snake-snakebody-alive {
-   background-image: url('./images/snakeblock.png');
+   background-image: url('./images/green-snakeblock.png');
 }
 .snake-snakebody-dead {
    background-image: url('./images/deadblock.png');

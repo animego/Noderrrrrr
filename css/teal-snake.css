@@ -80,7 +80,7 @@ a.snake-link:hover {
 .snake-food-block {
     margin: 0px;
     padding: 0px;
-    background-color: red;
+    background-color: #1b8135;
     border: 2px solid black;
     position: absolute;
 }
@@ -90,7 +90,7 @@ a.snake-link:hover {
     padding: 0px;
     position: absolute;
     background-color: rgb(0, 180, 180);
-    border: 3px solid black;
+    border: 0px solid black;
 }
 
 .snake-game-container {
