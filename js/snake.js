@@ -1,5 +1,4 @@
 
-
 /**
 * @module Snake
 * @class SNAKE
