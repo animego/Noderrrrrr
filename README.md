@@ -1,1 +1,1 @@
-כנס לאינדקס יגיי
+Great Snake game, which I completely created myself and did not take a bit of Google at all😤
